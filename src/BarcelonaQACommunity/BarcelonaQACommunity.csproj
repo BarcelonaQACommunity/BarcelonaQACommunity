@@ -8,13 +8,9 @@
     <PackageId>BarcelonaQACommunity</PackageId>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
-    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <Win32Resource />
   </PropertyGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="wwwroot\favicon.ico" />
-    <Content Include="wwwroot\qa_icon.ico" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Update="wwwroot\**\*">
@@ -45,6 +41,10 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.2.301" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\sponsors\" />
   </ItemGroup>
 
 </Project>
