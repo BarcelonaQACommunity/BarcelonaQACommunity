@@ -1,2 +1,2 @@
-# ErniQACommunity
-Webpage for QA Community from ERNI
+# BarcelonaQACommunity
+Webpage for QA Community from Barcelona
