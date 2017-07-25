@@ -8,7 +8,13 @@
     <PackageId>BarcelonaQACommunity</PackageId>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
+    <ApplicationIcon>wwwroot\favicon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\favicon.ico" />
+    <Content Include="wwwroot\qa_icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="wwwroot\**\*">
