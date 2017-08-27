@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <PackageId>BarcelonaQACommunity</PackageId>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
-    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
+    <AssetTargetFallback>$(AssetTargetFallback);dotnet5.6;portable-net45+win8</AssetTargetFallback>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <Win32Resource />
   </PropertyGroup>
